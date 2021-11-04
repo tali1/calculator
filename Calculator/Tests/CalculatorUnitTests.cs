@@ -42,6 +42,8 @@ namespace Tests
         [InlineData(11, true)]
         [InlineData(7, true)]
         [InlineData(5, true)]
+        [InlineData(1, true)]
+        [InlineData(2, true)]
         public void Calculator_IsPrime(int number, bool expectedResult)
         {
             var result = calculator.IsPrime(number);
