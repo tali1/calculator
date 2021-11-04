@@ -3,6 +3,7 @@
 namespace Calculator
 {
     public class CalculatorApp
+
     {
         public int Sum(int number1, int number2)
         {
@@ -31,5 +32,10 @@ namespace Calculator
             }
             
         }
+        public bool IsPrime(int number)
+        {
+            throw new NotImplementedException();
+        }
     }
+    
 }
