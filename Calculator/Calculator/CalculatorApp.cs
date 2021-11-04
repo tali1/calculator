@@ -34,7 +34,17 @@ namespace Calculator
 
         public bool IsPrime(int number)
         {
-            throw new NotImplementedException();
+            
+            for (int i = 2; i < number; i++)
+            {
+                if (number % i == 0)
+                {
+                    return false;
+                }
+
+            }
+            return true;
+ 
         }
     }    
 }
