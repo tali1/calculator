@@ -29,13 +29,12 @@ namespace Calculator
             else
             {
                 return (double)number1 / (double)number2;
-            }
-            
+            }            
         }
+
         public bool IsPrime(int number)
         {
             throw new NotImplementedException();
         }
-    }
-    
+    }    
 }

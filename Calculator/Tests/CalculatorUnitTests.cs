@@ -35,5 +35,17 @@ namespace Tests
             var result = calculator.Divide(4, 0);
             Assert.Equal(0, result);
         }
+
+        [Theory]
+        [InlineData(9, false)]
+        [InlineData(12, false)]
+        [InlineData(11, true)]
+        [InlineData(7, true)]
+        [InlineData(5, true)]
+        public void Calculator_IsPrime(int number, bool expectedResult)
+        {
+            var result = calculator.IsPrime(number);
+            Assert.Equal(expectedResult, result);
+        }
     }
 }
