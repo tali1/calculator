@@ -31,8 +31,8 @@ namespace Tests
         [Fact]
         public void Calculator_Divide()
         {
-            var result = calculator.Divide(2, 5);
-            Assert.Equal(0.4, result);
+            var result = calculator.Divide(4, 0);
+            Assert.Equal(0, result);
         }
     }
 }
