@@ -5,7 +5,7 @@ namespace Tests
 {
     public class CalculatorUnitTests
     {
-        private readonly CalculatorApp calculator = new CalculatorApp();
+        private readonly CalculatorApp calculator = new();
 
         [Fact]
         public void Calculator_Sum()
